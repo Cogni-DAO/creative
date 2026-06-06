@@ -52,8 +52,8 @@ export function AppTopBar(): ReactElement {
             </svg>
           </a>
           <GithubButton
-            username="cogni-DAO"
-            repo="cogni-template"
+            username="Cogni-DAO"
+            repo="creative"
             size="lg"
             variant="default"
             showGithubIcon={true}

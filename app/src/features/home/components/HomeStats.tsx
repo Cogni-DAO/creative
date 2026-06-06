@@ -24,10 +24,10 @@ interface StatItem {
 }
 
 const STATS: StatItem[] = [
-  { value: "0%", label: "Payment Fees" },
-  { value: "1", label: "Starter Kit" },
-  { value: "2", label: "Critical Services" },
-  { value: "12k+", label: "Community-Source Files" },
+  { value: "1", label: "Creative Node" },
+  { value: "3", label: "Launch Gates" },
+  { value: "24/7", label: "Knowledge Loop" },
+  { value: "DAO", label: "Shared Ownership" },
 ];
 
 export function HomeStats(): ReactElement {
@@ -38,7 +38,7 @@ export function HomeStats(): ReactElement {
           <motion.div
             key={stat.label}
             className={cn(
-              "relative flex flex-col items-center justify-center overflow-hidden rounded-2xl bg-transparent p-8"
+              "relative flex flex-col items-center justify-center overflow-hidden rounded-lg bg-transparent p-8"
             )}
             initial="initial"
             whileHover="hover"
