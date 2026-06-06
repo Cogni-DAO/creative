@@ -37,14 +37,19 @@ import {
  */
 const AVAILABLE_GRAPHS: readonly GraphOption[] = [
   {
-    graphId: "langgraph:poly-brain" satisfies GraphId,
-    name: "Poly Brain",
-    description: "Prediction market analyst with live market data",
+    graphId: "langgraph:research" satisfies GraphId,
+    name: "Creative Research",
+    description: "Research assistant for creative briefs and source gathering",
   },
   {
     graphId: "langgraph:brain" satisfies GraphId,
-    name: "Brain",
+    name: "Creative Brain",
     description: "Code-aware assistant with repo access",
+  },
+  {
+    graphId: "langgraph:autoresearch-syntropy-loop" satisfies GraphId,
+    name: "Syntropy Loop",
+    description: "Knowledge-focused experiment loop for reusable findings",
   },
   {
     graphId: "langgraph:poet" satisfies GraphId,
@@ -80,7 +85,7 @@ const AVAILABLE_GRAPHS: readonly GraphOption[] = [
 ];
 
 /** Default graph ID - exported for page initialization */
-export const DEFAULT_GRAPH_ID: GraphId = "langgraph:brain";
+export const DEFAULT_GRAPH_ID: GraphId = "langgraph:research";
 
 export interface ChatComposerExtrasProps {
   selectedModel: string;

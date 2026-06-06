@@ -34,8 +34,9 @@ const manrope = Manrope({
 });
 
 export const metadata: Metadata = {
-  title: "Cogni",
-  description: "Web3 Gov + Web2 AI",
+  title: "Cogni Creative",
+  description:
+    "A Cogni node for creative research, production workflows, and community-owned knowledge.",
 };
 
 // See operator/app/src/app/layout.tsx for rationale — `headers()` in the
